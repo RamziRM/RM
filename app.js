@@ -22,6 +22,6 @@ document.querySelector('h1').onmouseover = event => {
         if(iteration >= event.target.dataset.value.length) {
             clearInterval(interval);
         }
-        iteration += 1 / 3;
+        iteration += 1 /2;
     }, 50);
 }
